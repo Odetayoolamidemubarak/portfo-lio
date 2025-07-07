@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portfolio of Odetayo Olamide – Software Developer & Crypto Analyst.">
+  <title>Odetayo Olamide | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    AOS.init({ duration: 1000, once: false });
+    });
+</script>
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="#home" class="logo">ODETAYO <span>OLAMIDE</span></a>
+    <nav class="navbar" id="navbar">
+      <a href="#home">Home</a>
+      <a href="#education">Education</a>
+      <a href="#services">Services</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <!-- Home -->
+  <section class="home" id="home" data-aos="zoom-in">
+    <div class="home-content" data-aos="zoom-in-out">
+      <h1>Hello, I'm <span>Odetayo Olamide</span></h1>
+      <p>A dedicated software developer and crypto enthusiast, focused on building intuitive and high-performance web applications that address real-world challenges.</p>
+      <div class="btn-group">
+        <a href="cv.pdf" class="btn loadable" target="_blank">Download CV</a>
+        <a href="About.html" class="btn btn-outline">About Me</a>
+      </div>
+    </div>
+    <div class="home-img">
+      <img src="images/image0.jpg" alt="Olamide profile image" data-aos="fade-up">
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="education" id="education" data-aos="zoom-in-up">
+    <h2 class="heading" data-aos="zoom-in">Education Timeline</h2>
+    <div class="timeline">
+      <div class="timeline-card"  data-aos="zoom-in-out">
+        <h3>2022 - High School</h3>
+        <p>Graduated and began my tech journey with strong curiosity and ambition.</p>
+      </div>
+      <div class="timeline-card">
+        <h3>2023 - University</h3>
+        <p>Sharpened my coding skills, became proficient in full-stack development.</p>
+      </div>
+      <div class="timeline-card">
+        <h3>2024/2025 - Internship</h3>
+        <p>Worked on real-life projects, collaborated with experienced teams.</p>
+      </div>
+      <div class="timeline-card">
+        <h3>2025/2026 - Developer Job</h3>
+        <p>Currently delivering robust, scalable software solutions in a professional role.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services" data-aos="zoom-in-down">
+    <h2 class="heading" data-aos="zoom-in-up">What I Offer</h2>
+    <div class="services-grid" data-aos="zoom-in">
+      <div class="service-box">
+        <i class="fas fa-code"></i>
+        <h3>Frontend Development</h3>
+        <p>Modern, responsive UI built with HTML, CSS, JavaScript, and React.</p>
+      </div>
+      <div class="service-box">
+        <i class="fas fa-chart-line"></i>
+        <h3>Crypto Trading Bots</h3>
+        <p>Automated crypto systems for analytics and optimized trading.</p>
+      </div>
+      <div class="service-box">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Backend Development</h3>
+        <p>Python-based APIs and server-side logic with secure database integration.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials" data-aos="zoom-in-down">
+    <h2 class="heading" data-aos="zoom-in">Testimonials</h2>
+    <div class="testimonials-grid" data-aos="zoom-in-up">
+      <div class="testimonial-card">
+        <img src="images/img3.png" alt="Mr Cole">
+        <h3>Mr Cole</h3>
+        <p>"His software exceeded expectations and improved our workflow."</p>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/img1.png" alt="Mr Rollins">
+        <h3>Mr Rollins</h3>
+        <p>"The UI/UX he built was amazing. Can’t wait to collaborate again!"</p>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/img2.png" alt="Mr Anselm">
+        <h3>Mr Anselm</h3>
+        <p>"Very creative, detailed, and delivers on time. Highly recommend!"</p>
+      </div>
+    </div>
+  </section>
+    <div class="testimonials-action">
+      <a href="mailto:olamidemubarak245@gmail.com?subject=Testimonial Submission" class="btn">Leave a Testimonial</a>
+    </div>
+
+  <!-- Contact -->
+  <section class="contact" id="contact" data-aos="zoom-in-down">
+    <h2 class="heading" data-aos="zoom-in-up">Contact <span>Me</span></h2>
+    <form id="contact-form">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-row">
+        <input type="text" name="subject" placeholder="Subject" required>
+        <input type="number" name="phone" placeholder="Phone" required>
+      </div>
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+    <a href="https://wa.me/2347062497711" target="_blank" class="btn">Chat on WhatsApp</a>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="social">
+      <a href="https://wa.me/2347062497711"><i class="fab fa-whatsapp"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <p>&copy; 2025 Odetayo Olamide | All Rights Reserved</p>
+  </footer>
+  <a href="#home" class="btn">↑ Back to Top</a>
+
+
+<script>
+    <!-- Ripple and Button Effects -->
+  
+    // Ripple Effect
+    document.querySelectorAll('.btn').forEach(btn => {
+      btn.addEventListener('click', function (e) {
+        if (this.querySelector('.ripple')) return;
+        const ripple = document.createElement('span');
+        ripple.classList.add('ripple');
+        ripple.style.left = `${e.offsetX}px`;
+        ripple.style.top = `${e.offsetY}px`;
+        this.appendChild(ripple);
+        setTimeout(() => { ripple.remove(); }, 600);
+      });
+    });
+
+    // Click Sound Effect
+    const clickSound = new Audio('https://cdn.pixabay.com/download/audio/2022/03/15/audio_d234b0b03e.mp3?filename=click-button-140881.mp3');
+    document.querySelectorAll('.btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        clickSound.currentTime = 0;
+        clickSound.play();
+      });
+    });
+
+    // Loading Effect (only for loadable buttons)
+    document.querySelectorAll('.btn.loadable').forEach(btn => {
+      btn.addEventListener('click', function () {
+        if (btn.getAttribute('href') && btn.getAttribute('href') !== '#') return;
+        const originalText = btn.innerHTML;
+        btn.innerHTML = `<i class="fas fa-spinner fa-spin"></i> Loading...`;
+        btn.style.pointerEvents = 'none';
+        setTimeout(() => {
+          btn.innerHTML = originalText;
+          btn.style.pointerEvents = 'auto';
+        }, 1500);
+      });
+    });
+
+    // Toggle Mobile Menu
+const menuToggle = document.getElementById('menu-toggle');
+const navbar = document.getElementById('navbar');
+
+menuToggle.addEventListener('click', () => {
+  navbar.classList.toggle('active');
+});
+</script>
+
+</body>
+</html>
